@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS  `gig_table` (
+ id INT(10) NOT NULL auto_increment,
+ companyName VARCHAR(255) NOT NULL,
+ companyURL VARCHAR(255) NOT NULL,
+ companyEmail VARCHAR(255) NOT NULL,
+ companyPhone VARCHAR(255) NOT NULL,
+ gigType VARCHAR(255) NOT NULL,
+ gigLocation VARCHAR(255) NOT NULL,
+ gigCategories VARCHAR(255) NOT NULL,
+ positionTitle VARCHAR(255) NOT NULL,
+ positionId VARCHAR(255) NOT NULL,
+ positionDesc TEXT NOT NULL,
+ PRIMARY KEY (id)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
